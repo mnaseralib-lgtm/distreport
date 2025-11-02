@@ -27,8 +27,20 @@
         // The application will pick this up on its initial load.
         localStorage.setItem('appsScriptUrl', 'https://script.google.com/macros/s/AKfycbzg1ZXUR6q12ENj-QwmSlCYUWbk7Fmedc8gPneZeqWqXQokySiGMSncUeBAOdMZlakb/exec');
     </script>
-    <script type="module" crossorigin src="/assets/index-EVcvMO21.js"></script>
-  </head>
+
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "vite": "https://aistudiocdn.com/vite@^7.1.12",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.0"
+  }
+}
+</script>
+  <script type="module" crossorigin src="./assets/index-EVcvMO21.js"></script>
+</head>
   <body class="bg-gray-100 dark:bg-gray-900">
     <div id="root"></div>
   </body>
